@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job List</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+  />
+    <link rel="stylesheet" href="styles.css" class="css">
+</head>
+<body>
+    <main>
+        <div class="row form-row">
+            <form id="form-job">              
+                <label for="title">Job Title</label>                
+                <input type="text" id="title" name="title"/>              
+                <label for="employee">Employee Name</label>                
+                <input type="text" id="employee" name="employee" />
+                <label for="telNumber">Tel Number</label>                
+                <input type="text" id="telNumber" name="telNumber"/>              
+                <button type="submit">Add List</button>              
+              </form>
+        </div>
+        <div class="row">
+            <table  class="table">
+                <thead>
+                    <th>Job Title</th>
+                    <th>Employee Name</th>
+                    <th>Tel Number</th>
+                    <th></th>
+                </thead>
+                <tbody id="job-list">
+    
+                </tbody>
+            </table>
+        </div>
+        
+    </main>
+</body>
+<script src="js.js"></script>
+</html>
